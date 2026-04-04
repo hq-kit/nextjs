@@ -1,17 +1,13 @@
 # Next.js + Better Auth + Prisma Starter Kit
 
-🚀 A starter kit for building modern web applications with **Next.js 16**, **Better Auth**, **Prisma**, and **shadcn/ui**.
-
-🔗 **[Live Demo](https://auth.achour.dev/)**
-
-<a href="https://www.buymeacoffee.com/achour" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+🚀 A starter kit for building modern web applications with **Next.js 16**, **Better Auth**, **Prisma**, and **hq-ui**.
 
 ## 📌 Features
 
 - ✅ **Next.js 16** with App Router
 - ✅ **Better Auth** for authentication
 - ✅ **Prisma** for database management (Rust-Free Engine)
-- ✅ **shadcn/ui** for UI components
+- ✅ **hq-ui** for UI components
 - ✅ **Dashboard** for authenticated users
 - ✅ TypeScript support
 
@@ -24,12 +20,12 @@
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Achour/nextjs-better-auth.git
+   git clone https://github.com/hq-kit/nextjs.git
    cd nextjs-better-auth
    ```
 2. Install dependencies:
    ```sh
-   npm install
+   bun install
    ```
 3. Set up environment variables:
 
@@ -42,18 +38,18 @@
 4. Set up the database:
 
    ```sh
-   npx prisma migrate dev
+   bunx prisma migrate dev
    ```
 
 5. Start the development server:
    ```sh
-   npm run dev
+   bun run dev
    ```
 
 ## 🚀 Usage
 
-- Run `npm run dev` to start the development server.
-- Use `npx prisma studio` to manage your database visually.
+- Run `bun run dev` to start the development server.
+- Use `bunx prisma studio` to manage your database visually.
 - Customize authentication using Better Auth settings.
 
 ## 🛠️ Tech Stack
@@ -62,9 +58,9 @@
 - **Better Auth** - Authentication
 - **Prisma** - Database ORM (v7)
 - **Tailwind CSS 4** - Utility-first CSS framework
-- **shadcn/ui** - UI components
+- **hq-ui** - UI components
 - **TypeScript** - Type safety
 
 ---
 
-Made with ❤️ by [Achour Meguenni](https://github.com/Achour)
+Made with ❤️ by [DQ AL HQ](https://github.com/dq-alhq)
